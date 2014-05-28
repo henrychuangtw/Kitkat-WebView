@@ -1,0 +1,10 @@
+<resources>
+    
+
+    <dimen name="image_thumbnail_size">100dp</dimen>
+    <dimen name="image_thumbnail_spacing">3dp</dimen>
+    <dimen name="default_space">8dp</dimen>
+    
+	
+	
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">kitkat webview</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="btn_chioce">Pick(%d)</string>
+
+</resources>
