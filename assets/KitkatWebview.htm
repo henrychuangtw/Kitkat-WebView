@@ -7,7 +7,8 @@
         function ChooseImg() {
             KitKatWebview.chooseImg(1, 3);
         }
-
+        
+        var j = 0;
         function KitKatWebviewChooseImgResult(obj) {
             var divImgZone = document.getElementById("imgZone");
 
@@ -22,7 +23,7 @@
 
                 var newElement = document.createElement("input");
                 newElement.type = "hidden";
-                newElement.name = "uploadImg" + i;
+                newElement.name = "uploadImg" + j + i;
                 newElement.value = obj[i].Base64;
 
                 form1.appendChild(newElement);
@@ -32,7 +33,8 @@
                 var btnSubmit = document.getElementById("mySubmit");
                 btnSubmit.disabled = false;
             }
-
+            
+            j++;
         }
 
     </script>
