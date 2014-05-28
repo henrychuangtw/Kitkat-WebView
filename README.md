@@ -17,6 +17,7 @@ If you are currently using content:// URLs to load files from a content provider
 
 
 Solution :
+
 1. Add an  input type="button"  in web page, 
    when click the button, use javascript call app function to choose.
 
