@@ -17,12 +17,12 @@ If you are currently using content:// URLs to load files from a content provider
 
 
 Solution :
-1. Add an  <input type="button" > in web page, 
+1. Add an  input type="button"  in web page, 
    when click the button, use javascript call app function to choose.
 
 2. Convert choosed images to base64 string and pass it to web page.
 
-3. Show image : <img src="data:image/png;base64,xxxxx  base64 string form app  xxxxx"> 
+3. Show image : img.src="data:image/png;base64,xxxxx  base64 string form app  xxxxx"> 
 
 4. Post the base64 string to your server and decode it, then your can save image.
 
