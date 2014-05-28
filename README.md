@@ -11,6 +11,7 @@ A solution for Android 4.4 (KitKat) webiew issue :
 
 
 Note : https://developer.chrome.com/multidevice/webview/overview
+
 If you are currently using content:// URLs to load files from a content provider in your application, note that these URLs only work when accessed from local content. That is, web content hosted outside your application is not allowed to access files built into your application. 
 
 
