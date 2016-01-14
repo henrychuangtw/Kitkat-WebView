@@ -32,4 +32,5 @@ Solution :
 This is my solution for Android 4.4(Kitkat) webview, 
 if you have other solution, please tell me, thx.
 
-henrychuang.tw@gmail.com
+Reference :<br/>
+http://developer.android.com/guide/webapps/migrating.html
